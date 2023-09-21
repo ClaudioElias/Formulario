@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atitividade Formulário</title>
+    <title>Atividade Formulário</title>
 </head>
 <body>
-    <div class="form">
+    <div class="container">
         <h1>CADASTRO DE CURRÍCULO</h1>
         <form action="#" method="post">
-            <fieldset>
+            <fieldset class="dadosPessoais">
                 <legend><strong>Dados Pessoais</strong></legend>
                 <label for="nome">Nome Completo</label>
                 <input type="text" name="nome" id="nome">
@@ -25,14 +25,14 @@
                 <br><br>
             </fieldset>
                 <br>
-            <fieldset>
+            <fieldset class="genero">
                 <legend><strong>Gênero</strong></legend>
                 <input type="radio" name="genero" value="masculino" id="masculino"><label for="masculino">Masculino</label>
                 <br>
                 <input type="radio" name="genero" value="feminino" id="feminino"><label for="feminino">Feminino</label>
             </fieldset>
                 <br>
-            <fieldseT>
+            <fieldseT class="endereco">
                 <legend><strong>Endereço</strong></legend>
                 <label for="rua">Rua</label>
                 <input type="text" name="rua" id="rua">
@@ -50,10 +50,10 @@
                 <input type="text" name="cep" id="cep">
             </fieldseT> 
                 <br>
-                <textarea name="objetivos" id="objetovos" cols="80
+                <textarea name="objetivos" id="objetivos" cols="80
                 " rows="10">Objetivos Profissionais:</textarea>
                 <br>
-            <fieldset>
+            <fieldset class="formacao1">
                 <legend><strong>Formação Acadêmica 1</strong></legend>
                 <label for="curso1">Curso 1:</label>
                 <br>
@@ -68,7 +68,7 @@
                 <input type="date" name="data1" id="data1">
             </fieldset>
             <br>
-            <fieldset>
+            <fieldset class="formacao2">
                 <legend><strong>Formação Acadêmica 2</strong></legend>
                 <label for="curso2">Curso 2:</label>
                 <br>
@@ -83,10 +83,10 @@
                 <input type="date" name="data2" id="data2">
             </fieldset>
                 <br>
-                <textarea name="objetivos" id="objetovos" cols="80
+                <textarea name="habilidades" id="habilidades" cols="80
                 " rows="10">Habilidades e Competências:</textarea>
                 <br>
-            <fieldset>
+            <fieldset class="cursos">
                 <legend><strong>Cursos</strong></legend>
                 <label for="curso1">Curso 1:</label>
                 <input type="text" name="curso1" id="curso1">
@@ -104,7 +104,7 @@
                 <input type="number" name="horas3" id="horas3">
             </fieldset>
                 <br><br>
-            <fieldset>
+            <fieldset class="experiencias">
                 <legend><strong>Experiencias Profissonais</strong></legend>
                 <label for="experiencia1">Experiência 1:</label>
                 <input type="text" name="experiencia1" id="experiencia1">
@@ -120,7 +120,7 @@
                 <label for="dataf">Data de fim:</label>
                 <input type="date" name="dataf" id="dataf">
                 <br><br>
-                <label for="experiencia3">Experiência 1:</label>
+                <label for="experiencia3">Experiência 3:</label>
                 <input type="text" name="experiencia3" id="experiencia3">
                 <label for="datai">Data de início:</label>
                 <input type="date" name="datai" id="datai">
@@ -128,7 +128,7 @@
                 <input type="date" name="dataf" id="dataf">
             </fieldset>
                 <br>
-                <textarea name="objetivos" id="objetovos" cols="80
+                <textarea name="informacoes" id="informacoes" cols="80
                 " rows="10">Informações Complementares:</textarea>
                 <br>
                 <input type="submit" value="Enviar" id="enviar">
